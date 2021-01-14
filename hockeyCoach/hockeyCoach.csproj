@@ -58,6 +58,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GKListEntry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GKListEntry.Designer.cs">
+      <DependentUpon>GKListEntry.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="simulateGame.cs">
@@ -72,11 +78,20 @@
     <Compile Include="teamBuilder.Designer.cs">
       <DependentUpon>teamBuilder.cs</DependentUpon>
     </Compile>
+    <Compile Include="WingerListEntry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WingerListEntry.Designer.cs">
+      <DependentUpon>WingerListEntry.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DManListEntry.resx">
       <DependentUpon>DManListEntry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GKListEntry.resx">
+      <DependentUpon>GKListEntry.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="teamBuilder.resx">
       <DependentUpon>teamBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WingerListEntry.resx">
+      <DependentUpon>WingerListEntry.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
